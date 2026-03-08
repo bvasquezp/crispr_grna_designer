@@ -1,0 +1,20 @@
+# Entornos virtuales (El ecosistema local)
+venv/
+env/
+.venv/
+
+# Archivos compilados y cache de Python (Residuos de ejecucion)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Datos crudos y resultados (Opcional, pero recomendado en bioinformatica)
+# Descomenta las siguientes lineas si los archivos FASTA son muy pesados
+# data/
+*.fasta
+*.gb
+*.csv
+
+# Archivos ocultos del sistema operativo
+.DS_Store
+Thumbs.db
